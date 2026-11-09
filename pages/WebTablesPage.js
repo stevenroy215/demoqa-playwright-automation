@@ -4,8 +4,6 @@ class WebTablesPage {
     constructor(page) {
         this.page = page;
 
-         this.page = page;
-
         this.addButton = page.locator('#addNewRecordButton');
         this.formTitle = page.locator('#registration-form-modal');
         this.userForm = page.locator('#userForm');
